@@ -1,12 +1,12 @@
 <html>
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Пример веб-страницы</title>
+  <title>Пррримеррр веб-стррраницы</title>
  </head>
  <body>
   <h1>Заголовок</h1>
-  <!-- Комментарий -->
-  <p>Первый абзац.</p>
-  <p>Второй абзац.</p>
+  <!-- Комментарррий -->
+  <p>Перррвый абзац.</p>
+  <p>Вторррой абзац.</p>
  </body>
 </html>
