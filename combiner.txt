@@ -1,0 +1,23 @@
+import os
+import numpy as np
+namex="detectorframex"
+namey="detectorframey"
+files = os.listdir(os.getcwd())
+i=0
+j=0
+for filename in files:
+	if filename[0:14]==namex:
+		i=i+1
+	if filename[0:14]==namey:
+		j=j+1
+detectorx=[]
+detectory=[]
+for k in range(i):
+	x = np.load(namex+str(k)+'.npy',allow_pickle=True)
+	detectorx.append(x)
+for k in range(j):
+	y = np.load(namey+str(k)+'.npy',allow_pickle=True)
+	detectory.append(y)
+np.save('detectorx', detectorx)
+np.save('detectory', detectory)
+
